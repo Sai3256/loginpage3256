@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnxe3uALPadtXFgtmD3i9JyUDQC5Dat2kNZAGdw7eqEmk8bCu1YaU599rr7w&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+h1{
+    color:white;
+}
+.header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    margin-right: 200px;
+    gap: 100px;
+}
+
+.header img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.header img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.login-box {
+    background-color: rgba(12, 66, 20, 0.821);
+    color: yellow;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(198, 158, 158, 0.675);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 500px;
+}
+
+.signup, .Roll, .usrname, .pswd, .pswda, .checkbox, .button {
+    display: flex;
+   
+    align-items: center;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
